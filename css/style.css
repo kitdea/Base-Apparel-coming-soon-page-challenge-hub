@@ -36,7 +36,8 @@ h5{
   outline: none;
   background: transparent;
   font-family: "Josefin Sans", sans-serif;
-  border-color: #ce9797;
+  border: 1px solid #ce9797;
+  border-radius: 50px;
 }
 
 .email-btn{
@@ -44,4 +45,13 @@ h5{
   flex-grow: 1;
   border: none;
   background: Linear-gradient(135deg, #f8bfbf, #ee8c8c);
+}
+
+input{
+  border-radius: 50px 0 0 50px !important;
+}
+
+::placeholder{
+  color: hsl(0, 36%, 70%) !important;
+  opacity: 0.5 !important;
 }
