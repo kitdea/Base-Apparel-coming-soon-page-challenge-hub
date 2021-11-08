@@ -51,7 +51,19 @@ input{
   border-radius: 50px 0 0 50px !important;
 }
 
+input[type=email]{
+  outline: none !important;
+}
+
+input[type=email]:focus{
+  border: 1px solid #ce9797 !important;
+  border-color: #ce9797 !important;
+}
+
+
+
 ::placeholder{
   color: hsl(0, 36%, 70%) !important;
   opacity: 0.5 !important;
 }
+
