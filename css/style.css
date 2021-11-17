@@ -51,6 +51,9 @@ h5{
 }
 
 .email-btn{
+  position: absolute;
+  right: 40px;
+  padding: 1rem 1.5rem;
   cursor: pointer;
   flex-grow: 1;
   border: none;
